@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Futura';
+
+}
+.detalhes{
+    height: 40px;
+    padding: 10px;
+}
+.introduction{
+    background-color: red;
+    color: white;
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec_produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.produto{
+    width: 450px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info_produtos{
+    border: 3px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 300px;
+    width: 450px;
+}
+.btn-opcao, .nome_produto, .preco_produto{
+    display: flex;
+    justify-content: center;
+}
